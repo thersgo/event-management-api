@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"rootDir":                      "./src",
+		"outDir":                       "./dist",
+		"module":                       "nodenext",
+		"target":                       "esnext",
+		"types":                        ["node", "express"],
+		"moduleDetection":              "force",
+		"sourceMap":                    true,
+		"strict":                       true,
+		"verbatimModuleSyntax":         true,
+		"isolatedModules":              true,
+		"noUncheckedSideEffectImports": true,
+		"skipLibCheck":                 true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}
