@@ -7,15 +7,13 @@ tehakse järjekorras.
 
 **👉 Alusta siit: [ALUSTA.md](ALUSTA.md)**
 
-
-
 ## Kasutamine
+
 - `npm install` paigalda teeke
 - `npm run start` käivita server
 
-
-
 ## Kaustastruktuur
+
 ```
 src/
 ├── event/                 ← üks domeen = üks kaust
