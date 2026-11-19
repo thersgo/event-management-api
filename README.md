@@ -11,6 +11,12 @@ tehakse järjekorras.
 
 - `npm install` paigalda teeke
 - `npm run start` käivita server
+- `npm lint` leiab koodist kasutamata muutujad, ohtlikud mustrid ja muud vead
+- `npm format` vormindab ja parandab koodistiili ja struktuuri nagu taandus, jutumärgid, reapikkused
+- `npm run format:check` vaatab üle, et millised read parandatakse ära kui käivitada format käsk
+- `docker compose up -d` alustab docker'i ja sellekaudu postgres'i
+- `docker compose ps` loendab docker'i konteinereid ning nende staatused
+- `docker compose down` peatab ja eemaldab kõik docker'i konteinereid
 
 ## Kaustastruktuur
 
