@@ -7,6 +7,10 @@ tehakse järjekorras.
 
 **👉 Alusta siit: [ALUSTA.md](ALUSTA.md)**
 
+## Seadistus
+
+kopeeri `.env.example` -> `.env`'i ja täida ära.
+
 ## Kasutamine
 
 - `npm install` paigalda teeke
@@ -49,9 +53,9 @@ tests/                     ← peegeldab src/ struktuuri
 | test     | testid                                       |
 
 - loo uue haru
-	- nimega `[EESLIIDE]/[ISSUE NUMBER]-[lühike-nimi]`
-	- nt: `feat/5-docker-postgres`
+    - nimega `[EESLIIDE]/[ISSUE NUMBER]-[lühike-nimi]`
+    - nt: `feat/5-docker-postgres`
 - tee muudatused
 - `commit -m "[EESLIIDE]: [lühike kirjeldus]"`
-	- nt: `"feat: postgres docker composes"`
+    - nt: `"feat: postgres docker composes"`
 - pull request

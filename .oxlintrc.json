@@ -7,7 +7,7 @@
 	"rules": {"no-console": "error"},
 	"overrides": [
 		{
-			"files": ["src/config/env.ts", "src/scripts/**"],
+			"files": ["src/config/env.ts", "src/scripts/**", "src/server.ts"],
 			"rules": {"no-console": "off"}
 		}
 	],
