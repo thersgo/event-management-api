@@ -1,11 +1,9 @@
 {
 	"name":          "event-management-api",
-	"version":       "1.0.0",
-	"description":   "Ehitad selle rakenduse ise, samm-sammult.",
-	"main":          "index.js",
+	"version":       "0.1.0",
+	"description":   "Event management api school task.",
 	"type":          "module",
 	"homepage":      "https://github.com/thersgo/event-management-api#readme",
-	"keywords":      [],
 	
 	"scripts": {
 		"server":    "tsx --env-file=.env src/server.ts",
