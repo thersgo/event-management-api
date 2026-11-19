@@ -30,3 +30,22 @@ src/
 └── server.ts
 tests/                     ← peegeldab src/ struktuuri
 ```
+
+## Uuenduste tegemine
+
+| eesliide | tähendus                                     |
+| :------- | :------------------------------------------- |
+| feat     | uus käitumine                                |
+| fix      | vea parandus                                 |
+| refactor | koodi ümberkorraldus ilma käitumist muutmata |
+| chore    | seadistus, paketid                           |
+| docs     | README, dokumentatsioon                      |
+| test     | testid                                       |
+
+- loo uue haru
+	- nimega `[EESLIIDE]/[ISSUE NUMBER]-[lühike-nimi]`
+	- nt: `feat/5-docker-postgres`
+- tee muudatused
+- `commit -m "[EESLIIDE]: [lühike kirjeldus]"`
+	- nt: `"feat: postgres docker composes"`
+- pull request
